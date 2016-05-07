@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+	minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="main.MultiLAN" stylesheets="/stages/css/MultiLAN.css">
+	<children>
+		<VBox prefHeight="200.0" prefWidth="100.0" spacing="5" fx:id="create">
+			<children>
+				<Label text="Créer une partie :" id="title" />
+				<Label text="Nom de la partie :" />
+				<TextField fx:id="partyname" />
+				<Label text="Jeu :" />
+				<HBox prefHeight="100.0" prefWidth="200.0">
+					<children>
+						<RadioButton mnemonicParsing="false" text="Morpion"
+							fx:id="morpion" />
+					</children>
+				</HBox>
+				<HBox prefHeight="100.0" prefWidth="200.0">
+					<children>
+						<RadioButton mnemonicParsing="false" text="Puissance 4"
+							fx:id="puiss4" />
+					</children>
+				</HBox>
+				<Button mnemonicParsing="false" text="Créer une partie" />
+				<Separator prefWidth="200.0" />
+			</children>
+		</VBox>
+		<VBox prefHeight="200.0" prefWidth="100.0" spacing="5">
+			<children>
+				<Label
+					text="Si vous voulez rejoindre une partie déjà créée, cliquez sur 'Rejoindre une partie' :"
+					id="title" />
+				<Button mnemonicParsing="false" text="Rejoindre une partie"
+					onAction="#partyJoin" />
+			</children>
+		</VBox>
+		<Button mnemonicParsing="false" text="Retour" onAction="#retour" />
+	</children>
+</VBox>

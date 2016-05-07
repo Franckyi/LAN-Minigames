@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+	minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="games.multilan.Morpion" stylesheets="/stages/css/Morpion.css"
+	fx:id="plateau">
+	<children>
+		<VBox prefHeight="200.0" prefWidth="100.0">
+			<children>
+				<ToolBar prefHeight="40.0" prefWidth="600.0">
+					<items>
+						<Button mnemonicParsing="false" text="Quitter" id="quitter"
+							onAction="#exit" />
+						<Label fx:id="info" id="info" />
+					</items>
+				</ToolBar>
+				<HBox>
+					<GridPane minHeight="-Infinity" minWidth="-Infinity"
+						prefHeight="640.0" prefWidth="640.0" fx:id="grille" />
+					<VBox prefWidth="100.0" spacing="40.0" id="score">
+						<Label fx:id="name1" id="name" />
+						<Label fx:id="score1" id="blue" />
+						<Label fx:id="score2" id="red" />
+						<Label fx:id="name2" id="name" />
+					</VBox>
+				</HBox>
+			</children>
+		</VBox>
+	</children>
+</VBox>
