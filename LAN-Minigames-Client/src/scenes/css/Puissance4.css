@@ -1,0 +1,24 @@
+GridPane{
+	-fx-background-color:black;
+}
+
+#score{
+	-fx-font-size:4.0em;
+	-fx-alignment:center; 
+}
+
+#blue{
+	-fx-text-fill:blue;
+}
+
+#red{
+	-fx-text-fill:red;
+}
+
+#name{
+	-fx-font-size:0.4em;
+}
+
+#quitter, #rejouer{
+	-fx-max-width:100px;
+}

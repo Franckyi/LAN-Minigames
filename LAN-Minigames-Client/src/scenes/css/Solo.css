@@ -1,0 +1,18 @@
+.root{
+	-fx-background-image:url(/img/BackgroundMenu.png);
+	-fx-alignment:center;
+}
+
+#boutons{
+	-fx-alignment:center;
+}
+
+Button{
+	-fx-min-width:300px;
+	-fx-min-height:300px;
+	-fx-font-size:2.0em;
+}
+
+#retour{
+	-fx-min-height:40px;
+}

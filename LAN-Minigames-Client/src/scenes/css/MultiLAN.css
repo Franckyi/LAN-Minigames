@@ -1,0 +1,22 @@
+.root{
+	-fx-background-image:url(/img/BackgroundMenu.png);
+	-fx-alignment:center;
+	-fx-padding:20px; 
+}
+
+Button{
+	-fx-min-width:100px;
+	-fx-font-size:1.5em;
+}
+
+Label, RadioButton{
+	-fx-font-size:1.2em;
+}
+
+#title{
+	-fx-font-size:1.7em;
+}
+
+Separator{
+	-fx-padding:20px;
+}

@@ -1,0 +1,34 @@
+.root{
+	-fx-background-color:black;
+}
+
+Button{
+	-fx-max-width:300px;
+	-fx-max-height:300px;
+}
+
+Gridpane{
+	-fx-alignment:center;
+}
+
+#quitter, #rejouer{
+	-fx-max-width:100px;
+}
+
+#score{
+	-fx-background-color:white;
+	-fx-font-size:4.0em;
+	-fx-alignment:center; 
+}
+
+#blue{
+	-fx-text-fill:blue;
+}
+
+#red{
+	-fx-text-fill:red;
+}
+
+#name{
+	-fx-font-size:0.4em;
+}
