@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<?import main.MenuPrincipal?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="main.MenuPrincipal"
+	stylesheets="stages/css/MenuPrincipal.css">
+	<VBox id="menu" spacing="20">
+		<Label id="title" text="LAN Minigames" />
+		<Button text="Un Joueur" onAction="#solo" />
+		<Button text="Deux joueurs (Local)" onAction="#multiLocal" />
+		<Button text="Deux joueurs (Réseau LAN)" onAction="#multiLAN"
+			fx:id="multiLAN" />
+		<HBox id="menu" spacing="20">
+			<Button text="Quitter" id="petitBouton" onAction="#exit" />
+			<Button text="Site Web" id="petitBouton" onAction="#siteWeb" />
+		</HBox>
+		<Label fx:id="pseudo" id="pseudo" />
+	</VBox>
+</VBox>

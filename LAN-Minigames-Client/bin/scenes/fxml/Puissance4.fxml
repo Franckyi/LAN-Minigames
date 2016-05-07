@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+	minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0"
+	xmlns="http://javafx.com/javafx/8" fx:controller="games.multilocal.Puissance4"
+	stylesheets="stages/css/Puissance4.css" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<ToolBar prefHeight="40.0" prefWidth="200.0">
+			<items>
+				<Button mnemonicParsing="false" text="Quitter" id="quitter"
+						onAction="#exit" />
+				<Button mnemonicParsing="false" text="Rejouer" id="rejouer"
+						onAction="#reset" fx:id="reset"/>
+				<Label fx:id="info" />
+			</items>
+		</ToolBar>
+		<HBox>
+			<children>
+				<GridPane fx:id="grille" id="grille" />
+				<VBox prefWidth="100.0" fx:id="score" id="score" spacing="40">
+					<children>
+						<Label fx:id="name1" id="name" />
+						<Label fx:id="score1" id="blue" />
+						<Label fx:id="score2" id="red" />
+						<Label fx:id="name2" id="name" />
+					</children>
+				</VBox>
+			</children>
+		</HBox>
+	</children>
+</VBox>
