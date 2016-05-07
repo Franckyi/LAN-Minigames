@@ -1,0 +1,28 @@
+.root{
+	-fx-background-image:url(/img/BackgroundMenu.png);
+}
+
+#title{
+	-fx-font-size:4.0em;
+	-fx-font-weight:bold;
+	-fx-font-family:"Arial Black";
+	-fx-text-fill: #333333;
+}
+
+#menu{
+	-fx-alignment:center;
+
+}
+
+Button{
+	-fx-font-size:2.0em;
+	-fx-min-width:400px;
+}
+
+#petitBouton{
+	-fx-min-width:300px;
+}
+
+#pseudo{
+	-fx-font-size:1.5em;
+}
