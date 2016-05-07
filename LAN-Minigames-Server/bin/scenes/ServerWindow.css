@@ -1,0 +1,22 @@
+.root{
+	-fx-alignment:top-center;
+	-fx-padding:10px;
+}
+
+#title{
+	-fx-font-size:3.0em;
+	-fx-padding:20px;
+}
+
+Label{
+	-fx-font-size:1.5em;
+}
+
+Separator{
+	-fx-padding:20px;
+}
+
+#startStop{
+	-fx-font-size:2.0em;
+	-fx-pref-width:500px;
+}
