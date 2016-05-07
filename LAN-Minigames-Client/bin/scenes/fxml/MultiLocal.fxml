@@ -7,7 +7,7 @@
 <?import javafx.geometry.Insets?>
 
 <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="main.MultiLocal"
-	stylesheets="stages/css/MultiLocal.css" spacing="20">
+	stylesheets="scenes/css/MultiLocal.css" spacing="20">
 	<HBox id="boutons" spacing="40">
 		<VBox.margin>
 			<Insets top="10" />
