@@ -11,7 +11,7 @@ Comment jouer avec mes amis en réseau ?
 -
 - Allez dans la section "Releases"
 - Téléchargez la dernière version 'Serveur' du programme
-- Démarrez le serveur an choisissant le jeu auquel vous voulez jouer
+- Démarrez le serveur en choisissant le jeu auquel vous voulez jouer
 - Connectez-vous au serveur à partir d'un client
 - Attendez que votre ami fasse de même
 - Vous pouvez jouer en réseau !
